@@ -1,0 +1,36 @@
+#main-content {
+	max-width: 600px;
+}
+
+
+.article {
+	width: 580px;	
+	height: 100px;
+	display: inline-block;
+}
+
+.article h4 {
+	color: blue;
+}	
+
+.entry-photo {
+	height:220px;
+	display: inline-block
+	overflow:hidden;
+}
+
+.entry-photo img{
+	float: left
+}
+
+.article ul {
+	display: inline-block;
+}
+
+.article li {
+	display: inline-block;
+}
+
+.article a {
+	text-decoration: none;
+}

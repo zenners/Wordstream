@@ -1,0 +1,237 @@
+* {
+	font-family: sans-serif;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+span {
+	font-weight: bold;
+}
+
+#container{
+	width: 930px;
+	height: 860px;
+	background-color: white;
+}
+#top-banner{
+	height: 150px;
+	background-color: white;
+}
+
+	#top-nav-bar{
+
+	}
+		#top-nav-bar h2 {
+			height: 40px;
+			background-color: dodgerblue;
+			color: white;
+			margin: 0px;
+		}
+		#top-nav-bar img {
+			padding-top: 5px;
+
+		}
+		#top-nav-bar ul {
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 0;
+			margin-left: 25%;
+			padding: 0 5px;
+			background-color: lightgray;
+			
+		}
+		#top-nav-bar li {
+			display: inline-block;
+			text-decoration: none;
+			margin:	0 5px;
+			border-right: 1px solid grey;
+			padding-right: 5px;
+			font-size: 8px;
+			
+		}
+		#top-nav-bar a {
+			display: inline-block;
+			text-decoration: none;
+			color: #eee;
+		}
+		#top-nav-bar button {
+			display: inline-block;
+			vertical-align: top;
+			background-color: blue;
+			color: white;
+			margin: 0;
+			border: 0;
+			padding: 0;
+			border-radius: 2px;
+			width: 40px;
+			height: 20px;
+		}
+
+
+#sidebar{
+	width: 210px;
+	height: 600px;
+	background-color: white;
+	display: inline-block;
+	padding-top: 40px;
+	margin-right: 20px;
+}
+	#sidebar h4 {
+		color: dodgerblue;
+		margin: 0px;
+	}
+
+	#sidebar h5 {
+		color: orangered;
+		margin-bottom: 0px;
+	}
+
+
+	#sidebar h6 {
+		margin-top: 0px;
+	}
+
+
+
+	#sidebar a{
+		text-decoration: none;
+		color: dodgerblue;
+	}
+
+	#sidebar button {
+		display: block;
+		margin: 20px, 0px;
+		border-radius: 5px;
+		padding: 5px;
+		height: 30px;
+	}
+
+	#sidebar p.no-credit{
+	text-align: center;
+	border-bottom: 1px solid gray;
+	}
+
+
+	#sidebar button.demo {
+		display: block;
+		margin: 5px auto;
+		background-color: dodgerblue;
+		color: white;
+		width: 200px;
+	}
+
+	#sidebar button.trial {
+		display: block;
+		margin: 0 auto;
+		background-color: orangered;
+		color: white;
+		width: 200px;
+	}
+
+
+
+#main-content {
+	width: 680px;
+	height: 600px;
+	display: inline-block;
+	background-color: white;
+	vertical-align: top;
+
+}
+
+	#main-content h3 {
+		color: dodgerblue;
+	}
+
+	#main-content a {
+		color: dodgerblue;
+
+	}
+
+	#main-content ul {
+		padding-left: 20px;
+
+	}
+
+	#main-content .info {
+		font-size: 12px;
+
+	}
+
+#main-nav-bar {
+	width: 680px;
+	height: 80px;
+	display: inline-block;
+	background-color: white;
+	vertical-align: top;
+	border-bottom: 1px solid gray;
+	ovreflow: auto;
+	}
+
+	#main-nav-bar ul{
+		display: inline-block;
+	}
+	#main-nav-bar li {
+		display: inherit;
+		
+	}
+
+	#main-nav-bar a {
+		text-decoration: none;
+	}
+
+	#main-nav-bar img {
+		float: right;
+		
+	}
+#main-get-started {
+	width: 650px;
+	height:150px;
+	background-color: white;
+	display:inline-block;
+	border: 5px solid dodgerblue;
+
+
+
+	}
+	#main-get-started img {
+		display: inline-block;
+		vertical-align: top
+	}
+
+	#main-get-started h3 {
+		display: inline-block;
+		vertical-align: top
+	}
+
+		#main-ad p{
+			display: inline-block;
+			vertical-align: top;
+			width: 550px;
+
+
+		}
+
+		#main-ad{
+			display: inline-block;
+			vertical-align: top;
+			width: 550px;
+
+		}
+
+		#main-ad h3 {
+			margin: 0px;
+		}
+
+
+
+		#main-ad button {
+			background-color: greenyellow;
+			height: 30px;
+			border-radius: 3px;
+			color: white;
+			width: 150px;
+			font-weight: bold;
+			height: 30px;
+		}
